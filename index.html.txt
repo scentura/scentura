@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scentura - Fedezd fel az illatélményt!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigáció -->
+    <nav>
+        <ul>
+            <li><a href="#home">Kezdőlap</a></li>
+            <li><a href="#products">Termékek</a></li>
+            <li><a href="#offers">Akciók</a></li>
+            <li><a href="#purchase">Vásárlás</a></li>
+            <li><a href="#contact">Kapcsolat</a></li>
+        </ul>
+    </nav>
+
+    <!-- Kezdőlap szakasz -->
+    <section id="home">
+        <h1>Fedezd fel a Scentura illatélményét!</h1>
+        <p>Személyre szabott illat, amely mindig veled van.</p>
+        <a href="#purchase" class="cta-btn">Vásárolj most</a>
+    </section>
+
+    <!-- Termékek szakasz -->
+    <section id="products">
+        <h2>Termékeink</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Illatmodul 1">
+            <p>Illatmodul 1 leírása.</p>
+            <a href="#purchase" class="cta-btn">Vásárolj most</a>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Illatmodul 2">
+            <p>Illatmodul 2 leírása.</p>
+            <a href="#purchase" class="cta-btn">Vásárolj most</a>
+        </div>
+    </section>
+
+    <!-- Akciók szakasz -->
+    <section id="offers">
+        <h2>Akciók és Kedvezmények</h2>
+        <p>Használj kedvezménykódot: <strong>SCENT20</strong> és spórolj 20%-ot!</p>
+        <p>A legújabb illatcsomagok most 10%-kal olcsóbban kaphatók!</p>
+    </section>
+
+    <!-- Vásárlás szakasz -->
+    <section id="purchase">
+        <h2>Vásárlás</h2>
+        <p>Vásárolj most, és tudd meg, hogyan hozhatod létre saját, egyedi illatélményed!</p>
+        <a href="order-page.html" class="cta-btn">Rendeld meg most</a>
+    </section>
+
+    <!-- Kapcsolat szakasz -->
+    <section id="contact">
+        <h2>Kapcsolat</h2>
+        <p>Elérhetőségeink:</p>
+        <p>Email: info@scentura.hu</p>
+        <p>Telefon: +36 30 123 4567</p>
+        <form>
+            <label for="name">Neved:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Üzenet:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Küldés</button>
+        </form>
+    </section>
+</body>
+</html>
